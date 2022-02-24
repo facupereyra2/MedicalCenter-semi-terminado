@@ -1,0 +1,106 @@
+.noticiaContainer{
+    background-color: white;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin: 2.5% 10%;
+    background-color: rgba(0, 0, 0, 0.3   );
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2   );
+}
+
+.noticiaContainer img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 15px 0 15px 18px;
+}
+.mini-noticiacontainer{
+    display: flex;
+}
+
+.noticiaContainer input{
+    display: block;
+    margin: 40px 30px 30px 30px;
+    height: 10%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(218, 213, 213);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2   );
+    font-size: medium;
+}
+.noticiaContainer input::placeholder {
+    color: rgb(85, 84, 84);
+    font-weight: 500;
+}
+
+.noticiaContainer textarea{
+    background-color: rgb(218, 213, 213);
+    display: grid;
+    margin: auto;
+    width: 95%;
+    border-radius: 5px;
+}
+
+.noticiaContainer .button-container button{
+    color: black;
+    padding: 3px;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-left: 94%;
+    margin-top: 10px;
+    width: 70px;
+}
+
+.noticiaContainer button:hover {
+    background-color: #00796B;
+    color: white;
+}
+@media (max-width:1150px){
+    .noticiaContainer{
+        width: 85%;
+        height: 80%;
+        margin: 0 auto;
+        margin-top: 2.5%;
+    }
+
+    .noticiaContainer img {
+        width: 100%;
+        height: 350px;
+        display: grid;
+    }
+
+    .mini-noticiacontainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .noticiaContainer input{
+        width: 70%;
+        height: 30px;
+        margin: auto;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        border: 0;
+    }
+   
+    
+    .noticiaContainer .button-container button{
+        margin: auto;
+        width: 40%;
+        height: 30%;
+        margin-top: 2%;
+        font-size: 15px;
+        align-self: center;
+        }
+    
+    .button-container{
+        text-align: center;
+        color: #00796B;
+    }
+
+    .noticiaContainer textarea{
+        width: 70%;
+        
+    }
+}

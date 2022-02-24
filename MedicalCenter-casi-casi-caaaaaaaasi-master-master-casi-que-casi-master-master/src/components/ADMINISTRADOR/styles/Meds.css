@@ -1,0 +1,207 @@
+
+.med-input {
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    padding-left: 10px;
+}
+
+.agregar-btn-med {
+    margin: 20px 0 0 30px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.agregar-btn-med img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.check-container {
+    width: 500px;
+    height: 300px;
+    background-color: #00796Bff;
+    position: fixed;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.check-container form {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.check-container input {
+    outline: none;
+    width: 30%;
+    height: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.verificar-btn {
+    width: 100px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.verificar-btn span {
+    color: rgb(46, 45, 45);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.super-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.med-form-container {
+    width: 70%;
+    height: 500px;
+    background-color: #00796B;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.med-form-container h2 {
+    margin: 20px auto;
+}
+
+.med-form {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fst-inputs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fst-inputs input {
+    width: 25%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    outline: none;
+    font-size: 16px;
+}
+
+.fst-inputs input[type="date"] {
+    width: 25%;
+    padding-left: 10px;
+}
+
+.snd-inputs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.snd-inputs input {
+    width: 38%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    outline: none;
+    font-size: 16px;
+}
+
+.snd-inputs input[type="email"] {
+    padding-left: 10px;
+}
+
+.trd-inputs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trd-inputs input, select {
+    width: 17.3%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    outline: none;
+    font-size: 16px;
+}
+
+
+.fth-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fth-inputs input {
+    width: 88%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+
+button:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    opacity: 0.96;
+    cursor: pointer;
+}
+
+.error-container {
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
